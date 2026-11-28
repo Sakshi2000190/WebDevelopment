@@ -1,0 +1,41 @@
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    font-size: 50px;
+}
+
+/* desktop first approch */
+/* @media screen and (max-width:900px) {
+     .container{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    font-size: 30px;
+     }
+}
+@media  screen and (max-width:600px) {
+    .container{
+    height: 200px;
+    width: 200px;
+    background-color: palevioletred;
+    font-size: 30px;
+}
+} */
+ 
+
+/* basically ham real word me mobile approch par work karte hai */
+
+/* for mobile first approch */
+@media screen and (min-width:200px)   {
+    .container{
+    background-color: red;
+    font-size: 50px;
+}
+}
+@media screen and (min-width:600px)   {
+    .container{
+    background-color: green;
+    font-size: 50px;
+}
+}
