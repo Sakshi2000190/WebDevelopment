@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; 
+    above both are define the reverse order*/
+    background-color: azure;
+    height: 600px;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* jo direction ham select karte hai vo direction main access hoti hai dusra cross access */
+    justify-content: center;
+    /* justify content main access ke around kam karta hai */
+    align-items:center;
+    /* align item work arround cross access */
+    flex-wrap: wrap;
+    /* .ye resposiveness banata hai ye batata  hai jaise aap ki size kam ki jayegi to box niche aa jayenge same size ke box honge */
+    /* flex-wrap: nowrap; bydefaultt nowrap hota hai  */
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    
+}
+
+.first{
+    background-color: aqua;
+    /* flex-grow: 1; */
+    /* it contain the extra spase bydefault sabhi box ka flex grow 0 hota hai */
+}
+
+.second{
+    background-color: green;
+    /* flex-grow: 3; */
+    flex-shrink: 4;
+
+}
+
+.third{
+    background-color:yellow;
+    /* flex-grow: 2; */
+    align-self: flex-start;
+    /* means ye batata hai ki ye box kaha shift hoga*/ 
+}
+
+.fourth{
+    background-color: red;
+}
