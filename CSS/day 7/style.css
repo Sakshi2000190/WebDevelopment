@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container{
+    padding: 20px;
+    position: relative;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     animation-direction:alternate;
+     animation-delay: 4s;
+     animation-fill-mode: backwards;
+    position: absolute;
+    /* border-radius: 20px; */
+
+}
+/* @keyframes moving {
+    from{
+        background-color: aqua;
+        top: 10px;
+        left: 10px;
+        border-radius: 20px;
+    }
+    to{
+        background-color: red;
+        top: 400px;
+        left: 100%;
+        border-radius: 100%;
+    }
+    
+}
+
+  */
+
+  @keyframes moving {
+    0%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+        border: 40px;
+    }
+    25%{
+        background-color: blue;
+        top: 10px;
+        left: 1200px;
+        border-radius: 25%;
+
+    }
+
+    50%{
+        background-color: green;
+        top: 500px;
+        left: 1200px ;
+        border-radius: 50%;
+    }
+    75%{
+        background-color: blue;
+        top: 500px;
+        left: 10px;
+        border-radius: 100%;
+    }
+    100%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+        border: 50%;
+    }
+  }
