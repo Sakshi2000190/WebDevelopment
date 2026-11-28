@@ -1,0 +1,97 @@
+/* Element SElector */
+/* h2{
+    background-color: aqua;
+}
+h1{
+    background-color: blueviolet;
+    font-size: 50px;
+}
+ul{
+    background-color: aquamarine;
+} */
+
+
+/* id base selector # based selection */
+/* #first{
+    background-color: aqua;
+}
+#second{
+    background-color: aquamarine;
+} */
+
+
+/*  Class selector */
+/* .gym{
+    background-color: blue;
+}
+.exe{
+    background-color: palevioletred;
+} */
+
+
+/* group base selection */
+/* h1, #first ,#second{
+    background-color: aqua;
+} */
+
+
+
+
+/* color */
+
+/* h1{
+    background-color: rgb(7, 130, 89, 0.39);
+}
+
+h2{
+    background-color: hsl(110, 50%, 50%, 0.49);
+}
+
+li{
+    background-color: #634763;
+} */
+
+
+/* Font */
+h2{
+    font-size: 100px;
+}
+/* pixel ki koi size nahi hoti hai vo depend karta hai ham kisme open karte hai like laptop , mobile */
+ul{
+    font-size: 40px;
+}
+
+/* li{
+    font-size: 1em;
+} */
+/*  means 1*parentsize in pixel like if parent is 20px and child is 2em then 2*20= 40px of child size */
+html{
+    font-size: 50px;
+}
+/* h2{
+    font-size: 4px;
+    /* means 4*50= 200px */
+
+ /* h2{
+        font-size: 2rem;
+
+    } */
+
+h2{
+    font-size: 2vw;
+    /* means ye apne parent ka 2% hoga  */
+}
+
+li{
+    /* font-size: 5vh; */
+    font-size: 50%;
+    /* means ye apne parent ka 50% hoga matlb half */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* means ek sath multiple font family ko select kar sakte hai */
+    font-weight: 900;
+    font-style: italic;
+    /* ek google font website hoti hai jaha bahut sare font family hote hai waha se copy kar sakte hai */
+}
+
+
+
